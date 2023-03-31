@@ -1,8 +1,7 @@
 <template>
     <div class="z-10 top-0 left-0 flex-1 h-screen overflow-y-auto pb-20">
         <div class="relative">
-            <div class="h-60 overflow-y-hidden md:hidden">
-                <img src="banner2.png" alt="">
+            <div class="h-60 overflow-y-hidden md:hidden bg-[url('/banner2.png')] bg-no-repeat bg-cover">
             </div>
             <div class="hidden md:block overflow-y-hidden h-[60vh] bg-[url('/banner.png')] bg-no-repeat bg-cover">
             </div>
