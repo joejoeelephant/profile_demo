@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"
+    viewBox="0 0 1101 600">
+    <path d="M6 300.5v-174l85 115 87-115v174" vector-effect="non-scaling-stroke" />
+    <path d="M314 113.5c52 0 93 42 93 94 0 51-41 93-93 93-51 0-93-42-93-93 0-52 42-94 93-94"
+        vector-effect="non-scaling-stroke" />
+    <path d="M523 300V126.5m-73 0h146" vector-effect="non-scaling-stroke" />
+    <path d="M642 300.6v-174" vector-effect="non-scaling-stroke" />
+    <path d="M781 113.5c52 0 93 42 93 94 0 51-41 93-93 93-51 0-93-42-93-93 0-52 42-94 93-94"
+        vector-effect="non-scaling-stroke" />
+    <path d="M917 300.5v-174l147 174v-174" vector-effect="non-scaling-stroke" />
+</svg>

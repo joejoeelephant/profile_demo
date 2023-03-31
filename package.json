@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.4",
+    "nuxt": "^3.3.2",
+    "vite-plugin-string": "^1.2.1"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.7",
+    "@types/three": "^0.149.0",
+    "gsap": "^3.11.5",
+    "pinia": "^2.0.33",
+    "three": "^0.150.1"
+  }
+}
