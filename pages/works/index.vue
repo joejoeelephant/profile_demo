@@ -47,15 +47,15 @@
 
     const workItems:Ref<WorkItem[]> = ref([
         {
-            imgSrc: "work2.png",
+            imgSrc: "/work2.PNG",
             description: "Earth"
         },
         {
-            imgSrc: "work1.png",
+            imgSrc: "/work1.PNG",
             description: "Game"
         },
         {
-            imgSrc: "work3.png",
+            imgSrc: "/work3.PNG",
             description: "Music"
         }
     ])

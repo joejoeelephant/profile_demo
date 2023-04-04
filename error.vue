@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="w-full h-screen overflow-hidden flex flex-col justify-between items-center  pt-16">
-            <div class="w-10/12 p-2 shadow-md shadow-slate-500 rounded-md text-center">
+            <div class="w-10/12 md:w-96 p-2 shadow-md shadow-slate-500 rounded-md text-center">
                 <p class="text-7xl mt-7">
                     {{error.statusCode}}
                 </p>

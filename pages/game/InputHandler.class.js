@@ -8,6 +8,7 @@ class InputHandler{
             'ArrowRight',
             'r',
         ];
+        this.keyArr = Object.assign([], keyArr);
 
         window.addEventListener('keydown', (e) => {
             if(keyArr.includes(e.key) && !this.keys.includes(e.key)) {
@@ -20,6 +21,17 @@ class InputHandler{
             this.keys.splice(index, 1);
             console.log(this.keys);
         })
+    }
+
+    touchPress(keyName) {
+        if(this.keyArr.includes(keyName) && !this.keys.includes(keyName)) {
+            this.keys.push(keyName);
+        }
+    }
+
+    touchRelease(keyName) {
+        let index = this.keys.indexOf(keyName);
+        this.keys.splice(index, 1);
     }
 }
 

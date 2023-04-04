@@ -30,7 +30,7 @@ class Game {
         this.explosions = [];
         this.floatMessages = [];
         this.gameOver = false;
-        this.player_lives = 1
+        this.player_lives = 3
     }
 
     setPlayer(player) {
